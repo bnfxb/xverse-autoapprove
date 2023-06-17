@@ -4,7 +4,7 @@ Xverse Wallet with built-in autoapprove feature.
 # Changes
 - Added Autoapprove
 
-- Removed password filter (you can use whatever password you want for your wallet)
+- Removed password filter
 
 - Removed AutoLock
 
