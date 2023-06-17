@@ -19,7 +19,7 @@ Go to your extensions -> developer mode -> load unpacked -> select unarchived fo
 # Donate
 Doing these things for fun, so if u would like to support me, here are my wallets
 
-EVM: 0xF8EEBaf44D1DC17212f1b3360316764A16eCbA5b
+Any EVM (ETH, MATIC, etc): 0xF8EEBaf44D1DC17212f1b3360316764A16eCbA5b
 
 SOL: AAucUwdnJXnB8YFVGs9RPSmujtdh2MwKMvjaWmcdvQdf
 
