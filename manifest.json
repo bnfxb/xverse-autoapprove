@@ -1,0 +1,53 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "description": "Xverse Wallet. Cracked by bnfxb",
+    "version": "9.9.9",
+    "name": "Xverse Autoapprove (bnfxb)",
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "xverse_icon.png",
+        "default_title": "Xverse Wallet"
+    },
+    "chrome_url_overrides": {},
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+        "128": "xverse_icon.png"
+    },
+    "devtools_page": "devtools.html",
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "inpage.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; frame-src 'none'; frame-ancestors 'none';"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "browser-polyfill.js",
+                "content-script.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ],
+            "all_frames": true
+        }
+    ]
+}
