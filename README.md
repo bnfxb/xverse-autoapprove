@@ -2,7 +2,7 @@
 Xverse Wallet with built-in autoapprove feature.
 
 # Demo
-![](https://github.com/bnfxb/xverse-autoapprove/blob/main/demo.mp4)
+![](https://github.com/bnfxb/xverse-autoapprove/blob/main/demo.gif)
 
 # Changes
 - Added Autoapprove
