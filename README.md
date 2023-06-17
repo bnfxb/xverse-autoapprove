@@ -1,8 +1,17 @@
 # Xverse-Autoapprove
 Xverse Wallet with built-in autoapprove feature.
 
+# Changes
+- Autoapprove feature
+
+- Removed filter pass (you can use whatever password you want for your wallet)
+
+- Removed AutoLock
+
+
 # How-to-use?
-Go to your extensions -> developer mode -> load unpacked -> select unarchived folder.
+Go to your extensions -> developer mode -> load unpacked -> select unarchived folder. Enjoy.
+
 
 # Donate
 Doing these things for fun, so if u would like to support me, here are my wallets
